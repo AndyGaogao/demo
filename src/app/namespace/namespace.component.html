@@ -1,0 +1,31 @@
+<h1>Namespaces</h1>
+<table>
+  <thead>  
+    <tr>
+      <td>Name</td>
+      <td>Labels</td>
+      <td>Status</td>
+      <td>Age</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    </tr> 
+  </tbody>
+</table>
+
+
+	
+<ul class="row">
+    <li ngbDropdown *ngFor="let ns of namespace" class="col-lg-2">
+ 
+      <a href="{{ namespace.href}}" id="dropdownBasic2" ngbDropdownToggle>{{ namespace.name }}</a>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+        <button class="dropdown-item">Action - 1</button>
+        <button class="dropdown-item">Another Action</button>
+        <button class="dropdown-item">Something else is here</button>
+      </div>
+ 
+ 
+    </li>
+  </ul>
